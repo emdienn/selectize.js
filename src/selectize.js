@@ -2048,7 +2048,7 @@ $.extend(Selectize.prototype, {
 
 		// add mandatory attributes
 		if (templateName === 'option' || templateName === 'option_create') {
-			html = html.replace(regex_tag, '<$1 data-selectable');
+			html = html.replace(regex_tag, '<$1 data-' + (data[self.settings.disabledField] ? 'disabled' : 'selectable'));
 		}
 		if (templateName === 'optgroup') {
 			id = data[self.settings.optgroupValueField] || '';
