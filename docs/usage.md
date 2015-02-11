@@ -191,6 +191,12 @@ $(function() {
 		<td valign="top"><code>'value'</code></td>
 	</tr>
 	<tr>
+		<td valign="top"><code>disabledField</code></td>
+		<td valign="top">The name of the property to use as the "disabled" flag for an item.</td>
+		<td valign="top"><code>boolean</code></td>
+		<td valign="top"><code>'disabled'</code></td>
+	</tr>
+	<tr>
 		<td valign="top"><code>optgroupValueField</code></td>
 		<td valign="top">The name of the option group property that serves as its unique identifier.</td>
 		<td valign="top"><code>string</code></td>
